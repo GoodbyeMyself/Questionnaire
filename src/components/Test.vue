@@ -1,16 +1,16 @@
 <template>
-	<div class="hello">
+	<div>
 		<h1>{{ msg }}</h1>
-		<h2>Essential Links</h2>
+		<h2>测试页面2-内容区</h2>
 	</div>
 </template>
 
 <script>
 export default {
-	name: 'HelloWorld',
+	name: 'test',
 	data () {
 		return {
-			msg: 'Welcome to Your Vue.js App'
+			msg: '测试页面2'
 		};
 	}
 };
