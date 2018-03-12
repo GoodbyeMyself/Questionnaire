@@ -4,7 +4,8 @@
  */
 
 const state = {
-	count: 5
+	count: 5,
+	testData: {}
 };
 
 export default state;

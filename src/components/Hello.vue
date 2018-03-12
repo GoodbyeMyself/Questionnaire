@@ -8,13 +8,16 @@
 <script>
 export default {
 	name: 'hello',
+
 	data () {
 		return {
 			msg: '测试页面1'
 		};
 	},
+
 	created () {
 		console.log(this.$store.state.count);
+		this.$store.dispatch('getTestData');
 	}
 
 };

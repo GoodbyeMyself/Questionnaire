@@ -1,8 +1,8 @@
 <template>
 	<div>
 		我是头部
-		<router-link to="/">hello</router-link>
-		<router-link to="/test">hello</router-link>
+		<router-link to="/">页面1</router-link>
+		<router-link to="/test">页面2</router-link>
 	</div>
 </template>
 
