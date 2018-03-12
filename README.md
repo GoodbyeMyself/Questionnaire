@@ -1,6 +1,6 @@
-# y
+# 主要描述
 
-> test
+>主要应用 ： vue + vue-cli + vuex + vue-router + element-ui + axios + ES5/ES6 + es-lint
 
 ## Build Setup
 
@@ -18,4 +18,12 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 风格
+项目启用了eslint，eslint配置使用了[standard](https://github.com/standard/standard/blob/master/docs/RULES-zhcn.md)
+
+项目使用tab（4个字符）进行缩进；
+语句结尾必须使用分号；
+
+## 组件
+命名规范：组件名称首字母必须大写，如果是多个单词组成，请使用驼峰法命名。
+
