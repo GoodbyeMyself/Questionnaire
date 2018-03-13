@@ -16,8 +16,13 @@ export default {
 	},
 
 	created () {
-		console.log(this.$store.state.count);
-		this.$store.dispatch('getTestData');
+		// this.$store.dispatch('getTestData');
+		this.httpRequest({
+			url: '/api/initDemo',
+			method: 'get'
+		}).then(res => {
+			console.log(res);
+		});
 	}
 
 };

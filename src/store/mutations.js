@@ -5,7 +5,7 @@ export const C_OUNT = (state, n) => {
 	state.count = n;
 };
 
-// 获取教师端数据
+// 获取测试数据数据
 export const GET_TEST = (state) => {
 	httpRequest({
 		url: '/api/initTest',
