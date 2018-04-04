@@ -17,7 +17,7 @@ const countDown = () => {
 	}
 };
 
-// post请求序列化参数
+// 序列化请求参数
 axios.interceptors.request.use(config => {
 	if (!loading) {
 		loading = new Loading({
