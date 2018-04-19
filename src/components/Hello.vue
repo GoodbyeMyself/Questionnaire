@@ -11,7 +11,7 @@ export default {
 
 	data () {
 		return {
-			msg: '测试页面1'
+			msg: '测试页面1-1111'
 		};
 	},
 
