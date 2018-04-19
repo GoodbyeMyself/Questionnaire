@@ -16,7 +16,7 @@ export default {
 	},
 
 	created () {
-		// this.$store.dispatch('getTestData');
+		
 		this.httpRequest({
 			url: '/api/initDemo',
 			method: 'get'
